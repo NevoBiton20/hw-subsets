@@ -35,7 +35,7 @@ def sorted_subset_sums(numbers: set):
             heappush(heap, (current_sum - nums[i] + nums[next_i], next_i))
 
 if __name__ == '__main__':
-     from itertools import takewhile, islice
-     for i in eval(input()):
-         print(i, end=", ")
+    from itertools import takewhile, islice
+    for i in eval(input()):
+        print(i, end=", ")
     pass
