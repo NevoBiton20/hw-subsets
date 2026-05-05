@@ -1,3 +1,4 @@
+from heapq import heappush, heappop
 def sorted_subset_sums(numbers: set):
     """
     >>> list(sorted_subset_sums({1, 2, 4}))
